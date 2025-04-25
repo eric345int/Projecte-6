@@ -1,0 +1,6 @@
+nom = "eric"
+print(nom)
+
+
+
+
