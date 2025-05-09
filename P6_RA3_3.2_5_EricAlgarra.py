@@ -5,9 +5,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer el valor inicial d'un sensor,obtenir el valor ,establir el valor nomes entre 0 i 100.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer el valor inicial d'un sensor,obtenir el valor ,establir el valor nomes entre 0 i 100.
 
 
 
@@ -18,12 +18,10 @@ class Sensor:
 
     @property
     def valor(self):
-        """Getter per obtenir el valor actual"""
         return self.__valor
 
     @valor.setter
     def valor(self, valor):
-        """Setter per establir el valor (només entre 0 i 100)"""
         if 0 <= valor <= 100:
             self.__valor = valor
         else:

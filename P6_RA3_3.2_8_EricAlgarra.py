@@ -5,9 +5,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a calcular quants punts te un alumne en un examen,sapiguer l'edat i que no hi sigui negativa .
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per calcular  quants punts te un alumne en un examen,sapiguer l'edat i que no hi sigui negativa .
 
 
 
@@ -26,12 +26,12 @@ class Alumne:
 
     @property
     def edat(self):
-        """Getter per obtenir l'edat"""
+        
         return self.__edat
 
     @edat.setter
     def edat(self, valor):
-        """Setter per establir l'edat (no accepta valors negatius)"""
+        
         if valor >= 0:
             self.__edat = valor
         else:

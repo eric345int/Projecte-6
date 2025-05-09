@@ -5,9 +5,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer el nom d'un producte,el preu inicial establir el preu,i que el preu ha de ser superior a 0.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer el nom d'un producte,el preu inicial establir el preu,i que el preu ha de ser superior a 0.
 
 
 class Producte:
@@ -17,12 +17,10 @@ class Producte:
 
     @property
     def preu(self):
-        """Getter per obtenir el preu"""
         return self.__preu
 
     @preu.setter
     def preu(self, valor):
-        """Setter per establir el preu (només si és superior a 0)"""
         if valor > 0:
             self.__preu = valor
         else:

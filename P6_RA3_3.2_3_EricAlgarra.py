@@ -5,9 +5,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer la temperatura d'un termostat i fer que hi sigui entre 10 i 30 graus celcius.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer la temperatura d'un termostat i fer que hi sigui entre 10 i 30 graus celcius.
 
 
 class Termostat:
@@ -16,12 +16,10 @@ class Termostat:
 
     @property
     def temperatura(self):
-        """Getter per obtenir la temperatura actual"""
         return self.__temperatura
 
     @temperatura.setter
     def temperatura(self, valor):
-        """Setter per establir la temperatura (només entre 10 i 30 °C)"""
         if 10 <= valor <= 30:
             self.__temperatura = valor
         else:

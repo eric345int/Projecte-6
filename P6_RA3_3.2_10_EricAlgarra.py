@@ -5,9 +5,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a crear un compte de usuari el qual hi tingui un email inicial,sapiguer si ets el propietari i el  valor del email i mostra-ho.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a crear un compte de usuari el qual hi tingui un email inicial,sapiguer si ets el propietari i el  valor del email i mostra-ho.
 
 
 class CompteUsuari:

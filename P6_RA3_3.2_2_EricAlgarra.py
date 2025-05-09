@@ -5,9 +5,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer el nom,  la nota inicial d'un alumne,llegir la nota ,si la nota es menos que 10 posar nota nova i ha de ser entre 0 i 10.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer el nom,  la nota inicial d'un alumne,llegir la nota ,si la nota es menos que 10 posar nota nova i ha de ser entre 0 i 10.
 
 
 class Estudiant:
@@ -16,11 +16,9 @@ class Estudiant:
         self._nota = nota_inicial
 
     def llegir_nota(self):
-        """Llegir la nota de l'estudiant"""
         return self._nota
 
     def modificar_nota(self, nova_nota):
-        """Modificar la nota només si és entre 0 i 10"""
         if 0 <= nova_nota <= 10:
             self._nota = nova_nota
         else:

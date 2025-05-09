@@ -5,9 +5,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer les hores d'un rellotge en concret les hores incials,que ho retorni, establir les hores,i el rang han de ser entre 0 i 23 i el metode per mostrar les hores.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per per a sapiguer les hores d'un rellotge en concret les hores incials,que ho retorni, establir les hores,i el rang han de ser entre 0 i 23 i el metode per mostrar les hores.
 
 
 class Rellotge:
@@ -16,17 +16,14 @@ class Rellotge:
 
     @property
     def hores(self):
-        """Getter per obtenir les hores"""
         return self.__hores
 
     @hores.setter
     def hores(self, valor):
-        """Setter per establir les hores (només entre 0 i 23)"""
         if 0 <= valor <= 23:
             self.__hores = valor
         else:
             print("Les hores han de ser entre 0 i 23.")
 
     def mostrar_hores(self):
-        """Mètode per mostrar les hores en format 'HH:00'"""
         return f"{self.__hores:02d}:00"
