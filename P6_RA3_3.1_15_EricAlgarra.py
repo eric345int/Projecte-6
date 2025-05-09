@@ -4,9 +4,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer quin producte es es vol el seu nom i el preu i si shan d'aplicar descomptes i he creat diversos productes.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a  sapiguer quin producte es es vol el seu nom,el preu  si shan d'aplicar descomptes i he creat diversos productes.
 
 
 class Producte:

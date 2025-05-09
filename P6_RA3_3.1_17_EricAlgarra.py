@@ -4,9 +4,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a  sapiguer el nom,especie d'un animal i per a sapiguer el nom de un animal en aquest cas el gos i el soroll que hi fa .
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer el nom,especie d'un animal i per a sapiguer el nom de un animal en aquest cas el gos i el soroll que hi fa  .
 
 
 class Animal:
@@ -26,5 +26,4 @@ class Gos(Animal):
         print(f"{self.nom} fa: Bup bup!")
 
 
-gos1 = Gos("Rex")
-gos1.fer_soroll()  
+  

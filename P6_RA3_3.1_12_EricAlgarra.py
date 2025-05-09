@@ -4,19 +4,11 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a calcular un rectangle i que apareixi per pantalla.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio que serveix per a calcular un rectangle i que apareixi per pantalla.
 
 
-
-class Punt:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    def distancia(self, altre):
-        return ((self.x - altre.x) ** 2 + (self.y - altre.y) ** 2)
 class Rectangle:
     def __init__(self, amplada, alçada):
         self.amplada = amplada

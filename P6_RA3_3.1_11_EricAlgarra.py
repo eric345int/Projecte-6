@@ -6,17 +6,10 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a  sapiguer el model,marca i any d'un cotxe,he creat dos cotxes.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:aixo hi serveix per a  sapiguer el model,marca i any d'un cotxe,i els cotxes que he creat .
 
-class Punt:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    def distancia(self, altre):
-        return ((self.x - altre.x) ** 2 + (self.y - altre.y) ** 2)
 
 class Cotxe:
     def __init__(self, marca, model, any):

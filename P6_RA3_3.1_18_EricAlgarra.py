@@ -4,9 +4,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer el titol,autor,any d'un llibre mostra-ho i una biblioteca el qual es pot sapiguertots els llibres que hi han  i els que hi he afegit..
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer el titol,autor,any d'un llibre mostra-ho i una biblioteca el qual es pot sapiguertots els llibres que hi han  i els que hi he afegit.
 
 class Llibre:
     def __init__(self, titol, autor, any):

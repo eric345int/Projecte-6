@@ -4,19 +4,11 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer quants estudiants hi han i dir si as aprovat o no..
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer quants estudiants hi han hi si han aprovat o no.
 
 
-
-class Punt:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    def distancia(self, altre):
-        return ((self.x - altre.x) ** 2 + (self.y - altre.y) ** 2)
 class Estudiant:
     def __init__(self, nom, nota):
         self.nom = nom

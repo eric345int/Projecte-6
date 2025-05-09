@@ -4,9 +4,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a sapiguer el nom i la edat d'una persona ,he afegit persones i tambe es mostraran les persones que hi tinguin mes que 30 anys.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per per a sapiguer el nom i la edat d'una persona..
 
 
 class Persona:

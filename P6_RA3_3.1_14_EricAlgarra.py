@@ -4,9 +4,9 @@
 
 # Versió:12
 
-#Descripció:aixo hi serveix per a calcular un punt.
+#Descripció:aixo hi serveix per a  sapiguer quants diners s'han ingresat i quants s'han retirat d'un compte bancari i que hi apareixin per pantalla.
 
-#Especificacions d'entrada:funcio per calcular  un punt.
+#Especificacions d'entrada:funcio per a sapiguer quants diners s'han ingresat,retirat d'un compte bancari.
 
 
 class CompteBancari:
